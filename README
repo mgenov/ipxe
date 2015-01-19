@@ -2,7 +2,7 @@ iPXE README File
 
 Quick start guide:
 
-   cd src
-   make
-
+$cd src
+$ echo "#define NET_PROTO_LLDP" >> config/local/general.h
+$ make
 For any more detailed instructions, see http://ipxe.org
